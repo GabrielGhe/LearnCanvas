@@ -243,7 +243,7 @@ $(document).ready(function(){
 	//click anywhere to shoot
 	canvas.bind("mouseup", function(e){
 		//can't have too many fireworks
-		if(fireworks.length < 9){
+		if(fireworks.length < 9 && timer.isActive){
 			var x,
 				y;
 			//not firefox
