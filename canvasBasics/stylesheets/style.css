@@ -3,3 +3,42 @@ body {
   margin: 0px;
 }
 
+#container {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#canvasContainer {
+	float:left;
+	width:80%;
+	height:100%;
+	background-color: lightgray;
+}
+
+#canvas {
+	background-color: white;
+}
+
+#images {
+	display:block;
+	float:left;
+	width:20%;
+	height:100%;
+}
+
+#images img {
+	display:block;
+	float:left;
+	clear:both;
+	width:100%;
+}
+
+.inImages {
+	display:block;
+	float:left;
+	clear:both;
+	width:100%;
+}

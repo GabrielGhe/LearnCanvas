@@ -2,24 +2,43 @@
 <html>
   <head>
     <title>Test1</title>
+    <!-- 
+    http://www.creativebloq.com/design/learning-basics-html5-canvas-7112879
+     -->
     <!-- CSS -->
-      <link rel='stylesheet' href='/lib/css/ui-lightness/jquery-ui-1.10.4.custom.min.css' />
-      <link rel='stylesheet' href='/stylesheets/style.css' />
+      <link rel='stylesheet' href='./lib/css/ui-lightness/jquery-ui-1.10.4.custom.min.css' />
+      <link rel='stylesheet' href='./stylesheets/style.css' />
     <!-- END CSS -->
   	
     <!-- Scripts -->
-      <script rel='text/javascript' src='/lib/js/jquery.js'></script>
-      <script rel='text/javascript' src='/lib/js/jquery-ui.min.js'></script>
-      <script rel='text/javascript' src='/javascripts/functions.js'></script>
+      <script rel='text/javascript' src='./lib/js/jquery.js'></script>
+      <script rel='text/javascript' src='./lib/js/jquery-ui.min.js'></script>
+      <script rel='text/javascript' src='./javascripts/functions.js'></script>
     <!-- END Scripts -->
   </head>
   <body>
-    <table> 
-      <tr>
-        <td>
-          <canvas id="canvas" width="500" height="500"></canvas>
-        </td>
-      </tr>
-    </table>
+    <!-- container -->
+    <div id="container">
+
+      <!-- Images -->
+      <div id="images">
+        <img src="./images/canvas8.jpg" />
+        <button class="inImages" id="clearBtn">Clear</button>
+        <button class="inImages" id="drawBtn">Draw</button>
+      </div>
+      <!-- END Images -->
+
+      <!-- canvas -->
+      <table id="canvasContainer"> 
+        <tr>
+          <td align="center">
+            <canvas id="canvas" width="500" height="500"></canvas>
+          </td>
+        </tr>
+      </table>
+      <!-- end canvas -->
+
+    </div>
+    <!-- end container -->
   </body>
 </html>
