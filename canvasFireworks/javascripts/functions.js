@@ -1,3 +1,5 @@
+//http://thecodeplayer.com/walkthrough/canvas-fireworks-tutorial
+
 var canvas,
 	context,
 	cHeight,
