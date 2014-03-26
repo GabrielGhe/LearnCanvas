@@ -4,7 +4,7 @@ var canvas,
 	ch,
 	cw,
 	characters = [],
-	chinese = "0123456789",
+	chinese = "未经授权的访问王劉楊黃陈黄吳周徐孙马朱何林罗冯",
 	fontSize = 15;
 chinese = chinese.split("");
 
@@ -69,8 +69,6 @@ $(document).ready(function(){
 			$(this).html("Play");
 		}
 	});
-
-	
 });
 
 
